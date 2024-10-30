@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 1200px;
+}
+
+/* Breadcrumb Styles */
+.breadcrumb-wrap {
+    background-color: #e9ecef;
+    padding: 15px 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.breadcrumb {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.breadcrumb-item {
+    display: inline;
+    margin-right: 5px;
+}
+
+.breadcrumb-item a {
+    /* color: #007bff; */
+    text-decoration: none;
+}
+
+.breadcrumb-item.active {
+    color: #6c757d;
+}
+
+/* About Page Styles */
+.about-page {
+    padding: 30px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-page h1,
+.privacy-policy-page h1,
+.terms-page h1,
+.payment-policy-page h1,
+.shipping-policy-page h1,
+.return-policy-page h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+.about-page h2,
+.privacy-policy-page h2,
+.terms-page h2,
+.payment-policy-page h2,
+.shipping-policy-page h2,
+.return-policy-page h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #495057;
+}
+
+.about-page p,
+.privacy-policy-page p,
+.terms-page p,
+.payment-policy-page p,
+.shipping-policy-page p,
+.return-policy-page p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.about-page ul,
+.privacy-policy-page ul,
+.terms-page ul,
+.payment-policy-page ul,
+.shipping-policy-page ul,
+.return-policy-page ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-page ul li,
+.privacy-policy-page ul li,
+.terms-page ul li,
+.payment-policy-page ul li,
+.shipping-policy-page ul li,
+.return-policy-page ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.about-page ul li:last-child,
+.privacy-policy-page ul li:last-child,
+.terms-page ul li:last-child,
+.payment-policy-page ul li:last-child,
+.shipping-policy-page ul li:last-child,
+.return-policy-page ul li:last-child {
+    border-bottom: none;
+}
+
+.about-page ul li i,
+.privacy-policy-page ul li i,
+.terms-page ul li i,
+.payment-policy-page ul li i,
+.shipping-policy-page ul li i,
+.return-policy-page ul li i {
+    color: #007bff;
+    margin-right: 10px;
+}
+
